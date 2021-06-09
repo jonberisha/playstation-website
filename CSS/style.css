@@ -1,95 +1,108 @@
 body {
-    padding: 0;
-    margin: 0;
-    background-color: #d3d3d3;
-    font-family: 'Earth Orbiter', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #d3d3d3;
+  font-family: "Earth Orbiter", sans-serif;
 }
 
 /*targets all elements*/
-*{ 
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-a{
-    color:black;
-    font-family:sans-serif;
-    text-decoration: none;
+a {
+  color: black;
+  font-family: sans-serif;
+  text-decoration: none;
 }
 .navbar {
-    background-color: white;
-    display: flex;
-    position: sticky;
-    flex-grow: 1;
+  background-color: white;
+  display: flex;
+  position: sticky;
+  flex-grow: 1;
 }
 .navbar .nav-item {
-    padding: 25px;
-    width: auto;
+  padding: 25px;
+  width: auto;
 }
-.navbar .nav-item:hover{
-    background-color: #d4d4d4;
+.navbar .nav-item:hover {
+  background-color: #d4d4d4;
 }
 .flex {
-    display: flex;
+  display: flex;
 }
-.flex-item{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.flex-item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-img{
-    height: 500px;
+img {
+  height: 500px;
 }
 .image {
-    text-align: center;
-    padding: 50px 0;
-    border-right: 1px solid black;
+  text-align: center;
+  padding: 50px 0;
+  border-right: 1px solid black;
 }
 .padding {
-    padding: 50px;
+  padding: 50px;
 }
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 #product-info p {
-    padding: 10px;
+  padding: 10px;
 }
-.ps-price{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 200px;
-    font-size: 20px;
+.ps-price {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 200px;
+  font-size: 20px;
 }
-.ps-official{
-    width: 85px;
-    height: 70px;
+.ps-official {
+  width: 85px;
+  height: 70px;
 }
-.nav-right{
-    width: 85px;
-    /* float: right;   */
-    margin-left: auto;
+.nav-right {
+  width: 85px;
+  /* float: right;   */
+  margin-left: auto;
 }
 
 .title-heading {
-    font-size: 40px;
+  font-size: 40px;
 }
-.single-div{
-    height: 760px;
-    background-image: url('../assets/featured-games');
-    background-repeat: no-repeat;
-    background-size: cover;
+.single-div {
+  border-top: 3px solid black;
+  height: 760px;
+  background-image: url("../assets/featured-games");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .transparent-font {
-    font-size: 100px;
-    font-family: 'SF Automaton Extended', sans-serif;
-    color:#d3d3d3;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+  font-size: 100px;
+  font-family: "SF Automaton Extended", sans-serif;
+  color: #d3d3d3;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  padding-top: 25%;
+}
+.purchase-button{ 
     text-align: center;
-    margin: 0px;
-    position: relative;
-    padding-top: 25%;
+    padding-top: 80px;
+}
+.buttons{
+    border: 2px solid rgba(2, 2, 138, 0.918);
+    width: 100px;
+    height: 40px;
+    color: rgba(2, 2, 138, 0.918);
+    font-family: "SF Automaton Extended", sans-serif;
+    
 }
