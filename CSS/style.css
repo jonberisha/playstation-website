@@ -19,7 +19,7 @@ a{
     background-color: white;
     display: flex;
     position: sticky;
-
+    flex-grow: 1;
 }
 .navbar .nav-item {
     padding: 25px;
@@ -60,6 +60,7 @@ img{
     flex-direction: column;
     text-align: center;
     padding: 200px;
+    font-size: 20px;
 }
 .ps-official{
     width: 85px;
@@ -67,5 +68,28 @@ img{
 }
 .nav-right{
     width: 85px;
-    float: right !important;
+    /* float: right;   */
+    margin-left: auto;
+}
+
+.title-heading {
+    font-size: 40px;
+}
+.single-div{
+    height: 760px;
+    background-image: url('../assets/featured-games');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transparent-font {
+    font-size: 100px;
+    font-family: 'SF Automaton Extended', sans-serif;
+    color:#d3d3d3;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    padding-top: 25%;
 }
