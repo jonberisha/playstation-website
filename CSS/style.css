@@ -78,7 +78,7 @@ img {
 }
 #background-slideshow {
   border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  /* border-bottom: 3px solid black; */
   height: 760px;
   max-height: 760px;  
   background-repeat: no-repeat;
@@ -101,6 +101,7 @@ img {
     padding-top: 80px;
 }
 .buttons{
+    background-color: #d3d3d3;
     border: 2px solid rgba(2, 2, 138, 0.918);
     width: 20%;
     color: rgba(2, 2, 138, 0.918);
@@ -126,4 +127,79 @@ img {
 #featured-games .single-div p {
   padding-bottom: 40px;
 }
+.contact-title{
+  padding: 10px;
+}
+#Contact{
+  background-color: black;
+  color: #d3d3d3;
+  border: 1px solid #d3d3d3;
 
+}
+#email {
+  border: 2px solid rgba(2, 2, 138, 0.918);
+  padding: 5px 0; 
+  width: 30%;
+  background-color: #d3d3d3;
+}
+#subject {
+  background-color: #d3d3d3;
+  border: 2px solid rgba(2, 2, 138, 0.918);;
+  width: 50%;
+  height: 60px;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button {
+  margin-top: 30px;
+  width: 30%;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.submit-button:before {
+  content: '';
+  background: linear-gradient(45deg, #003cff, #0084ff, #014280, #00b7ff, #00ffd5);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.submit-button:hover:before {
+  opacity: 1;
+}
+
+.submit-button:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+input, textarea{
+  outline: none;
+}
