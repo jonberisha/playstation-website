@@ -1,7 +1,6 @@
 function onClickButton() {
   console.log("test");
-}
-
+} 
 var imgSource = [
   "featured-games",
   "Playstation-5-games-console-transparent-background-png-image.webp",
@@ -19,3 +18,6 @@ setInterval(function () {
     i = 0;
   }
 }, 2000);
+
+
+// TEST
