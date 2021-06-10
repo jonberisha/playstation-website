@@ -19,5 +19,20 @@ setInterval(function () {
   }
 }, 2000);
 
-
 // TEST
+// modal
+var modal = document.getElementById('modal-form');
+var btn = document.getElementById("modal-btn");
+
+//close modal with <span>
+var span = document.getElementsByClassName("close")[0];
+
+//open modal on button click
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+//close modal when clicking anywhere outside of it
+span.onclick = function() {
+    modal.style.display = "none";
+}
