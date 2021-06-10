@@ -20,6 +20,7 @@ a {
   display: flex;
   position: sticky;
   flex-grow: 1;
+  justify-content: space-between;
 }
 .navbar .nav-item {
   padding: 25px;
@@ -67,18 +68,19 @@ img {
   height: 70px;
 }
 .nav-right {
-  width: 85px;
+  /* width: 85px; */
   /* float: right;   */
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 .title-heading {
   font-size: 40px;
 }
-.single-div {
+#background-slideshow {
   border-top: 3px solid black;
+  border-bottom: 3px solid black;
   height: 760px;
-  background-image: url("../assets/featured-games");
+  max-height: 760px;  
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -100,9 +102,28 @@ img {
 }
 .buttons{
     border: 2px solid rgba(2, 2, 138, 0.918);
-    width: 100px;
-    height: 40px;
+    width: 20%;
     color: rgba(2, 2, 138, 0.918);
     font-family: "SF Automaton Extended", sans-serif;
-    
 }
+.buttons:hover{
+  background-color: rgba(2, 2, 138, 0.918);
+  color: white;
+}
+
+
+#product-info .buttons{
+  padding: 20px 0;
+}
+.fg-button{
+  text-align: center;
+}
+.fg-button .buttons {
+  font-size: large;
+  padding: 40px 0;
+
+}
+#featured-games .single-div p {
+  padding-bottom: 40px;
+}
+
